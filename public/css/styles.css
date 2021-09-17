@@ -1,0 +1,236 @@
+#brand{
+    position: relative; 
+    width: calc(150.86%/14.40);
+    height: calc(4800%/72);
+    top: 16.66%;
+    left: 11.785%;
+    margin: 0px;
+    padding: 0px;
+}
+#barnd img{
+    width: 100%;
+    height: 100%;
+}
+#nav-baar{
+
+    height: 72px;
+}
+.log img{
+    padding-right: 10px;
+}
+.navbar-brand {
+    position: relative; 
+    width: calc(150.86%/14.40);
+    height: calc(4800%/72);
+    top: 16.66%;
+    left: 16.785%;
+    margin: 0px;
+    padding: 0px;
+}
+#navbut{
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 143%px;
+
+/* identical to box height, or 143% */
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+color: #18191F;
+}
+.navbar-expand-lg .navbar-collapse {
+   position:relative;
+   left: -8.895%;
+}
+.bg-light {
+    background: #FFFFFF !important;
+}
+.flex-grow-1 {
+    flex-grow: 1!important;
+
+}
+#main p{
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+}
+#p1{
+height: 150px;
+/* left: 225px; */
+/* top: 308px; */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 65px;
+line-height: 75px;
+
+/* or 115% */
+
+color: #18191F;
+
+text-transform: uppercase;
+}
+#p2{
+height: 48px;
+/* left: 225px;
+top: 475px; */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+
+/* or 120% */
+
+color: #505050
+
+
+}
+#main img{
+
+    height: 361px;
+    width : 530px;
+    /* float:right ;
+    transform: translateY(121px); */
+    
+        /* left: calc(80000%/1440);
+    right: calc(11000%/1440);
+    top: 237px; */
+    
+}
+
+#main {
+    transform: translateY(45px);
+}
+#p3 form{
+    display: flex;
+    flex-flow: row;
+}
+#p3 form input{
+    width: 65%;
+    border-right: 0px;
+    padding-right:0px ;
+
+    
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+/* display: flex; */
+align-items: center;
+letter-spacing: 0.2px;
+
+/* Light / Gray dark */
+color: #737B7D;
+
+
+
+}
+#p3 form button{
+    width: 30%;
+    padding-left:0px ;
+    padding-left:0px ;
+
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #FFFFFF;
+}
+#alain{
+    width: 90%;
+}
+#Services{
+    transform: translateY(110px);
+}
+#Services h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    line-height: 64px;
+
+    /* identical to box height, or 133% */
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+    color: #18191F;
+}
+#serapp{
+    transform: translateY(40px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#serapp .card-text{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+
+/* or 162% */
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+color: #18191F;
+
+
+}
+#serapp img{
+    width: 36px;
+    height: 36px;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+.navi{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+
+/* identical to box height, or 133% */
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Primary */
+color: #0F6EFF;
+
+text-decoration: none;
+
+}
+.card{
+    max-height: fit-content;
+}
+.navi{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: top 17px;
+    padding-bottom: 17px;
+}
+#p3{
+    margin-top: 4%;
+}
