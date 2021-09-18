@@ -5,10 +5,10 @@ var mysql      = require('mysql');
 const { json } = require('express');
 //var bodyparser = require('body-parser')
 var connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'root',
-  password : 'wjqr-tw3s-9iTT',
-  database : 'Zocket_tech'
+  host     : 'bio97tstmqxgpqsdau2a-mysql.services.clever-cloud.com',
+  user     : 'ukznneawkdzxqtzl',
+  password : 'GeeZksJdC5K1SIWsdaFA',
+  database : 'bio97tstmqxgpqsdau2a'
 });
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
