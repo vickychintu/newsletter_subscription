@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block">
+                    <!-- hidden spacer to center brand on mobile --></span>
+                <a class="navbar-brand d-none d-lg-inline-block" href="#"><img src="src/img/brand.png" alt="brandname" ></a>
+                <a class="navbar-brand-two mx-auto d-lg-none d-inline-block log" href="#" >
+                    <img src="src/img/brand.png" alt="logo">
+                </a>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                <ul class="navbar-nav ms-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a href="#Services" class="nav-link m-2 menu-item nav-active">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item nav-active">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#reach" class="nav-link m-2 menu-item " id="navbut">       Get early access       </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- <section id="banner">
+        <p id=p1>
+            Facebook ads in 30 sec
+        </p>
+        <p id="p2">
+            Create stunning ad copy incredibly fast and skyrocket your digital business
+        </p>
+        <img src="src/img/baner.png" alt="banner_img">
+    </section> -->
+
+    <div class="container" id="main">
+        <div class="row no-gutters align-items-end">
+          <div class="col" >
+            <div class="row no-gutters align-items-center" id="p1"><div class="col"> FACEBOOK ADS IN 30 SECONDS</div></div>
+            <div class="row no-gutters align-items-end" id="p2"><div id="alain">Create a stunning ad copy incredibly fast and skyrocket your digital business</div> </div>
+            <div class="row no-gutters align-items-end-" id="p3">
+                <form method="POST" action="/savedata" class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="email" placeholder="Your email address" aria-label="mail_notify" id="reach" name="email" autocomplete="off"">
+                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Get early access</button>
+                  </form>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./src/img/baner.png" alt="banner_img">
+          </div>
+        </div>
+    </div>
+    <section id="Services" >
+        <h1>Tailor-made Services</h1>
+        <div class="container" id="serapp" >
+            <div class="card" style="width: 22rem;padding-right: 3%;">
+                <img class="card-img-top" src="src/img/icons/Group 74.png" alt="Facebook">
+                <div class="card-body">
+                  <h5 class="card-title">Facebook Ads</h5>
+                  <p class="card-text">With custom audience targeting and personalized ad campaigns, your business is sure to acquire leads.</p>
+                  <a href="#" class="navi">
+                    Explore <i class="bi bi-arrow-right"></i>
+                </a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 22rem;padding-right: 3%;">
+                <img class="card-img-top" src="src/img/icons/icons8-google (1) 1.png" alt="Facebook">
+                <div class="card-body">
+                  <h5 class="card-title">Google Ads</h5>
+                  <p class="card-text">We offer industry research paired with PPC monitoring and A/B testing to ensure you get an improved ROI.</p>
+                  <a href="#" class="navi">  
+                   Explore <i class="bi bi-arrow-right"></i>
+                </a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 22rem;padding-right: 3%;">
+                <img class="card-img-top" src="src/img/icons/Group 75.png" alt="Facebook">
+                <div class="card-body">
+                  <h5 class="card-title">Instagram Ads</h5>
+                  <p class="card-text">Right from design & content strategy to profile management and everything in between, we’ve got you covered.</p>
+                  <a href="#" class="navi">
+                    Explore <i class="bi bi-arrow-right"></i>
+                </a>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous" defer></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.js"
+			  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+			  crossorigin="anonymous" defer></script>
+</body>
+</html>
